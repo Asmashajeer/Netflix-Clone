@@ -1,0 +1,76 @@
+.banner{
+   background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url("/Banner.jpg");
+    background-size: cover;
+    width:100vp;
+    height: 100%;
+    margin:0;
+    
+}
+.banner-content{    
+    width:80%;
+    margin-left:50px;
+    margin-right:50px;
+    padding:200px 150px;
+    align-items: center;
+
+    
+}
+.banner-text{
+    padding:50px;
+    color: white;
+    font-size:1.6em;
+    text-align: center;    
+}
+.banner-text h{
+    display:flex;
+    font-weight:bold;
+    padding:20px;
+    text-justify: center;
+}
+.banner-text p{
+    padding:10px;
+    font-size:.8em;
+    
+}
+.login{
+    padding:10px;
+    text-align: center;
+}
+.email-login{
+   text-align: center;
+   width:100%;
+   
+}
+.email-login{
+    display:inline-flex;    
+    align-items: center;
+    padding-left:50px;
+    gap:5px;
+}
+.email-login input{
+    margin-top:30px;
+    width: 400px; 
+    padding-left:10px  ;
+    height: 50px;   
+    font-size: 18px;
+    border:1px solid rgb(83, 82, 82);
+    border-radius: 5px;
+    background-color: transparent;
+}
+.emaillogin-button{
+    margin-top:30px;
+    width:200px;
+    height:50px;
+    font-size: 18px;
+    background-color: red;
+    border:1px solid red;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    
+}
+.emaillogin-button svg{
+    
+    width:24px;
+    height:24px;
+}

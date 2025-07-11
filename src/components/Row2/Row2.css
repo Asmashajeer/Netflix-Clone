@@ -1,0 +1,66 @@
+.container {
+  margin: 0 100px;
+  color: #fff;
+}
+
+.title {
+ 
+  margin-bottom: auto;
+  font-size: 1.5rem;
+  
+}
+
+.cards {
+  padding: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.box {
+  width: 220px;
+  height: 300px;
+  padding: 10px;
+  background-color: rgb(1, 1, 55);
+  color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.box h2,
+.box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  
+  margin-bottom: 0;
+}
+
+.overlay-img {
+  position: absolute;
+  width:40%;
+  height:30%;
+  bottom: -10px;
+  right:0;
+  margin:0;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  font-weight: 800;
+  padding: 6px 10px;
+  font-size: 6rem;
+  overflow: visible;
+  border-top-right-radius: 8px;
+}

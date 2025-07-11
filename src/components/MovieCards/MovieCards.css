@@ -1,0 +1,182 @@
+.curved{    
+    width:100%;
+    height: 100px;
+      margin-left:100px;
+   margin-right:100px;
+   margin-bottom:0;
+}
+.curved-line {
+  width: 90%;
+  height:200px; /* adjust as needed */
+  background: linear-gradient(to bottom, #0b1b38, #000000);   
+  border-top: 3px solid #870622;
+  border-top-left-radius: 30% ;
+  border-top-right-radius: 30% ;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8); 
+  overflow: hidden; 
+}
+
+.movies{
+  margin-top:50px;
+   margin-left:100px;
+   margin-right:100px;
+    color:#ffff;
+}
+
+
+
+
+.posters {
+  overflow-x: scroll;
+  overflow-y:hidden;
+  padding: 20px;
+  
+}
+
+.posters::-webkit-scrollbar {
+  display: none; 
+}
+
+/* Horizontal row of list items */
+.horizontal-list {
+  display: flex;
+  
+  flex-wrap: nowrap;
+  list-style: none;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+.movie-list{
+   display: flex;
+  
+  flex-wrap: nowrap;
+  list-style: none;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+}
+/* Prevent shrinking, ensure horizontal layout */
+.post {
+  flex-shrink: 0;
+}
+
+/* Make button clickable but invisible styling */
+.post button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  max-height: 300px;
+}
+ .post button:hover{
+  transform: scale(1.05);
+  border:1px solid rgb(97, 97, 96);
+  border-radius:5px;
+ }
+.smallPost button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  max-height: 150px;
+}
+.smallPost button:hover
+{ 
+  
+  transform: scale(1.05);
+  border:1px solid rgb(97, 97, 96);
+  border-radius:5px;
+
+}
+/* Image container with background image */
+.image-box {
+    width: 200px;    /* example width */
+  height: 250px; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;  
+}
+.image-box p{
+  position:absolute;
+ bottom:20px;
+ right:20px;
+  font-Size:20px;
+  font-weight: 600;
+  color:rgb(219, 212, 212);
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);  
+}
+
+.smallimage-box{
+   width: 150px;    /* example width */
+  height: 200px; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  
+}
+.smallimage-box p{
+  position:absolute;
+  bottom:40px;
+  font-Size:13px;
+  font-weight: 500;
+  color:rgb(249, 249, 249);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);  
+}
+
+/* Overlay span at bottom-left */
+.overlay-text {
+  position: absolute;
+  bottom: -10px;
+  left: -40px;
+ color:black;                /* No fill */
+  -webkit-text-stroke: 1px #ffff;   /* Stroke width and color */
+  font-weight:800;
+  padding: 6px 10px;
+  font-size: 6rem; 
+  overflow: visible;
+  border-top-right-radius: 8px;
+}
+
+
+
+
+
+@media (max-width:500px){
+  .image-box{
+    width:100px;;
+  }
+  .post {
+  flex-shrink:1;
+}
+  .movies{
+    width:50%;
+    height:70%;
+  }
+  .smallimage-box{
+    width:80px;
+  }.posters{
+    width:50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
